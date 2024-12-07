@@ -1,0 +1,1 @@
+<p class="text-center mt-96">copyright 2024</p>
