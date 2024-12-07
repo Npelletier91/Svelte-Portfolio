@@ -15,10 +15,4 @@ const config = {
 	}
 };
 
-export default {
-	kit: {
-	  adapter: vercel({
-		runtime: 'nodejs20.x', // Specify Node.js version
-	  }),
-	},
-  };
+export default config;
