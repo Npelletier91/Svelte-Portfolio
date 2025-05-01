@@ -28,6 +28,10 @@
                 </a>
                 <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
             </div>
+
+
+
+
             <div class="relative max-lg:row-start-1 hover:scale-[1.02] transition-transform cursor-pointer">
                 <a href="https://github.com/Npelletier91/BlazorPortfolioApp?tab=readme-ov-file" class="block">
               <div class="absolute inset-px rounded-lg bg-slate-800 max-lg:rounded-t-[2rem]"></div>
@@ -41,10 +45,11 @@
                 </div>
               </div>
             </a>
-
               <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
             </div>
             
+
+
             <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2 hover:scale-[1.02] transition-transform cursor-pointer">
                 <a href="https://github.com/Npelletier91/Castle-Conquest" class="block">
               <div class="absolute inset-px rounded-lg bg-slate-800"></div>
@@ -60,28 +65,62 @@
               </a>
               <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5"></div>
             </div>
+
+
+
             <div class="relative lg:row-span-2 hover:scale-[1.02] transition-transform cursor-pointer">
+                <a href="https://github.com/Npelletier91/Svelte-Portfolio" class="block">
               <div class="absolute inset-px rounded-lg bg-slate-800 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
               <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                 <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Powerful APIs</p>
-                  <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget sem sodales gravida.</p>
+                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Portfolio Website</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">This site is entirely built using Svelte and TailwindCSS</p>
                 </div>
                 <div class="relative min-h-[30rem] w-full grow">
-                  <div class="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl">
+                    <div class="relative mx-10 mt-10 rounded-tl-xl bg-gray-900 shadow-2xl overflow-auto">                        
                     <div class="flex bg-gray-800/40 ring-1 ring-white/5">
                       <div class="-mb-px flex text-sm/6 font-medium text-gray-400">
-                        <div class="border-r border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white">NotificationSetting.jsx</div>
-                        <div class="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
+                        <div class="border-r border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white">Main.svelte</div>
+                        <div class="border-r border-gray-600/10 px-4 py-2">+page.svelte</div>
                       </div>
                     </div>
-                    <div class="px-6 pt-6 pb-14">
-                      <!-- Your code example -->
+                <div class="relative mx-10 mt-5 max-h-[32rem] overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl">
+                <pre class="bg-gray-900 text-white break-words text-left">
+{`const animate = () => {
+    if (!container) return;
+
+    const containerRect = container.getBoundingClientRect();
+
+    // Update each image's position
+    imagesData = imagesData.map((image) => {
+        let { x, y, dx, dy } = image;
+
+        // Update position
+        x += dx;
+        y += dy;
+
+        // Bounce off walls
+        if (x <= 0 || x + 50 >= containerRect.width) {
+            dx *= -1; // Reverse horizontal direction
+        }
+        if (y <= 0 || y + 50 >= containerRect.height) {
+            dy *= -1; // Reverse vertical direction
+        }
+
+        return { ...image, x, y, dx, dy };
+    });
+
+    requestAnimationFrame(animate); // Loop the animation
+};
+                            `}
+                        </pre>
                     </div>
+                    
                   </div>
                 </div>
               </div>
-              <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+              </a>
+              <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-5 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
             </div>
           </div>
         </div>
