@@ -19,8 +19,8 @@
                     <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Hangover Hero</p>
                     <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">A mobile game developed with Unity using over 100 C# scripts. Hangover Hero will be deployed for Andriod and iPhone.</p>
                     </div>
-                    <div class="@container relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                        <div class="absolute inset-x-10 top-10 bottom-0 overflow-hidden flex items-center justify-center rounded-t-[4cqw] border-x-[1cqw] border-t-[2cqw] border-slate-950 bg-slate-950 shadow-2xl">
+                    <div class="@container relative min-h-[38rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                        <div class="absolute inset-x-8 top-10 bottom-0 overflow-hidden flex items-center justify-center rounded-t-[4cqw] border-x-[1cqw] border-t-[2cqw] border-slate-950 bg-slate-950 shadow-2xl">
                         <img class="max-h-none object-cover rotate-90 scale-[1.8] translate-y-8" src="\HangoverHero.png" alt="">
                         </div>
                     </div>
@@ -29,29 +29,35 @@
                 <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
             </div>
             <div class="relative max-lg:row-start-1 hover:scale-[1.02] transition-transform cursor-pointer">
+                <a href="https://github.com/Npelletier91/BlazorPortfolioApp?tab=readme-ov-file" class="block">
               <div class="absolute inset-px rounded-lg bg-slate-800 max-lg:rounded-t-[2rem]"></div>
               <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                 <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Performance</p>
-                  <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.</p>
+                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Blazor Web Applications</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Flash Card application and a Daily Recipe app using Blazor.</p>
                 </div>
-                <div class="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
-                  <img class="w-full max-lg:max-w-xs" src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-performance.png" alt="">
+                <div class="flex flex-1 items-center verflow-hidden justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
+                  <img class="w-full max-lg:max-w-xs  rounded-t-[1cqw] scale-[0.9]" src="/FlashCardApp.png" alt="">
                 </div>
               </div>
+            </a>
+
               <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
             </div>
+            
             <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2 hover:scale-[1.02] transition-transform cursor-pointer">
+                <a href="https://github.com/Npelletier91/Castle-Conquest" class="block">
               <div class="absolute inset-px rounded-lg bg-slate-800"></div>
               <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Security</p>
-                  <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.</p>
+                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Castle Couquest</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Castle Conquest is a 2D platform runner game developed in C# using Unity.</p>
                 </div>
                 <div class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
-                  <img class="h-[min(152px,40cqw)] object-cover" src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-security.png" alt="">
+                  <img class="w-full max-lg:max-w-xs  rounded-t-[1cqw] scale-[.9]" src="\CastleConquest.png" alt="">
                 </div>
               </div>
+              </a>
               <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5"></div>
             </div>
             <div class="relative lg:row-span-2 hover:scale-[1.02] transition-transform cursor-pointer">
