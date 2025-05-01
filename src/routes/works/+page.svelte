@@ -8,15 +8,17 @@
       <Header />
       <div class="bg-slate-950 py-24 sm:py-32">
         <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-          <h2 class="text-center text-base/7 font-bold text-slate-700">My Work</h2>
-          <p class="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Past and Current Projects</p>
+          <h2 class="text-center text-base/7 font-extrabold text-slate-700">My Work</h2>
+          <p class="mx-auto mt-2 max-w-lg text-center text-4xl font-extrabold tracking-tight text-balance text-white sm:text-5xl">Past and Current Projects</p>
           <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+
+
             <div class="relative lg:row-span-2 hover:scale-[1.02] transition-transform cursor-pointer">
                 <a href="https://nicolaspelletier.itch.io/hangover-hero" class="block">
                 <div class="absolute inset-px rounded-lg bg-slate-800 lg:rounded-l-[2rem]"></div>
                 <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                     <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                    <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Hangover Hero</p>
+                    <p class="mt-2 text-xl font-extrabold tracking-tight text-white max-lg:text-center">Hangover Hero</p>
                     <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">A mobile game developed with Unity using over 100 C# scripts. Hangover Hero will be deployed for Andriod and iPhone.</p>
                     </div>
                     <div class="@container relative min-h-[38rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
@@ -37,7 +39,7 @@
               <div class="absolute inset-px rounded-lg bg-slate-800 max-lg:rounded-t-[2rem]"></div>
               <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                 <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Blazor Web Applications</p>
+                  <p class="mt-2 text-xl font-extrabold tracking-tight text-white max-lg:text-center">Blazor Web Applications</p>
                   <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Flash Card application and a Daily Recipe app using Blazor.</p>
                 </div>
                 <div class="flex flex-1 items-center verflow-hidden justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
@@ -55,7 +57,7 @@
               <div class="absolute inset-px rounded-lg bg-slate-800"></div>
               <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div class="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Castle Couquest</p>
+                  <p class="mt-2 text-xl font-extrabold tracking-tight text-white max-lg:text-center">Castle Couquest</p>
                   <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">Castle Conquest is a 2D platform runner game developed in C# using Unity.</p>
                 </div>
                 <div class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
@@ -73,7 +75,7 @@
               <div class="absolute inset-px rounded-lg bg-slate-800 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
               <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                 <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p class="mt-2 text-xl font-bold tracking-tight text-white max-lg:text-center">Portfolio Website</p>
+                  <p class="mt-2 text-xl font-extrabold tracking-tight text-white max-lg:text-center">Portfolio Website</p>
                   <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">This site is entirely built using Svelte and TailwindCSS</p>
                 </div>
                 <div class="relative min-h-[30rem] w-full grow">

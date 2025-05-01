@@ -23,7 +23,7 @@
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <a href="https://docs.google.com/document/d/1RmAHWgXpGa6JorTw2g1Zic7fmsIcyKixj-e0dW-0Do8/edit?usp=sharing" target="_blank" class="hidden md:block">
-        <button type="button" class="text-white bg-slate-800 hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Resume <span aria-hidden="true">→</span></button>
+        <button type="button" class="text-white bg-slate-800 hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center hover:text-slate-950">Résumé <span aria-hidden="true">→</span></button>
       </a>
         <button data-collapse-toggle="navbar-cta" type="button" on:click={toggleDropDown} class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -90,7 +90,7 @@
               <a href="/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-slate-400 hover:bg-slate-400 hover:text-slate-950">contact</a>
             </div>
             <div class="py-6">
-              <a href="https://docs.google.com/document/d/1RmAHWgXpGa6JorTw2g1Zic7fmsIcyKixj-e0dW-0Do8/edit?usp=sharing" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-slate-400 hover:bg-slate-400 hover:text-slate-950">resume</a>
+              <a href="https://docs.google.com/document/d/1RmAHWgXpGa6JorTw2g1Zic7fmsIcyKixj-e0dW-0Do8/edit?usp=sharing" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-slate-400 hover:bg-slate-400 hover:text-slate-950">Resume</a>
             </div>
           </div>
         </div>
