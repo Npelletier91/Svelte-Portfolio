@@ -33,15 +33,18 @@
       </button>
     </div>
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-slate-800 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+      <ul class="flex flex-col font-medium p-12 text-center  md:p-0 mt-4 border border-gray-100 rounded-lg bg-slate-800 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
         <li>
-          <a href="/info" class="block py-2 px-3 md:p-0 text-white rounded  hover:font-extrabold md:hover:bg-transparent">/ / &nbsp; info</a>
+          
+          <a href="/info" class="block py-2 px-3 md:p-0 text-white rounded transition-transform duration-150 hover:scale-125 md:hover:bg-transparent">Info</a>
+          
         </li>
         <li>
-          <a href="/works" class="block py-2 px-3 md:p-0 text-white rounded  hover:font-extrabold md:hover:bg-transparent">/ /  &nbsp; works</a>
+          <a href="/works" class="block py-2 px-3 md:p-0 text-white rounded transition-transform duration-150 hover:scale-125 md:hover:bg-transparent">Works</a>
+          
         </li>
         <li>
-          <a href="/contact" class="block py-2 px-3 md:p-0 text-white rounded  hover:font-extrabold md:hover:bg-transparent ">/ /  &nbsp; contact</a>
+          <a href="/contact" class="block py-2 px-3 md:p-0 text-white rounded transition-transform duration-150 hover:scale-125 md:hover:bg-transparent ">Contact</a>
         </li>
       </ul>
     </div>
